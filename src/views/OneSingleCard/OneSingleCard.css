@@ -1,0 +1,41 @@
+.one_card_wrapper .one_single_card {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid #f1f1df;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  position: relative;
+  width: 100px;
+  height: 180px;
+  background: lightyellow; }
+  .one_card_wrapper .one_single_card .glyphicon {
+    display: block;
+    line-height: 180px;
+    text-align: center;
+    font-size: 30px; }
+    .one_card_wrapper .one_single_card .glyphicon.glyphicon-user {
+      color: palegreen; }
+    .one_card_wrapper .one_single_card .glyphicon.glyphicon-hdd {
+      color: lightskyblue; }
+  .one_card_wrapper .one_single_card .horizontal_val {
+    font-size: 20px;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    text-align: center; }
+    .one_card_wrapper .one_single_card .horizontal_val.top {
+      top: 0px; }
+    .one_card_wrapper .one_single_card .horizontal_val.bottom {
+      bottom: 0px; }
+  .one_card_wrapper .one_single_card .vertical_val {
+    font-size: 20px;
+    line-height: 180px;
+    position: absolute;
+    top: 0px; }
+    .one_card_wrapper .one_single_card .vertical_val.right {
+      right: 5px; }
+    .one_card_wrapper .one_single_card .vertical_val.left {
+      left: 5px; }

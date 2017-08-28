@@ -1,0 +1,53 @@
+.one_card_wrapper {
+    .one_single_card {
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        border: 1px solid #f1f1df;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        position: relative;
+        width: 100px;
+        height: 180px;
+        background: lightyellow;
+        .glyphicon {
+            display: block;
+            line-height: 180px;
+            text-align: center;
+            font-size: 30px;
+            &.glyphicon-user {
+                color: palegreen;
+            }
+            &.glyphicon-hdd {
+                color: lightskyblue;
+            }
+        }
+        .horizontal_val {
+            font-size: 20px;
+            width: 100%;
+            position: absolute;
+            left: 0px;
+            text-align: center;
+            &.top {
+                top: 0px;
+            }
+            &.bottom {
+                bottom: 0px;
+            }
+        }
+        .vertical_val {
+            font-size: 20px;
+            line-height: 180px;
+            position: absolute;
+            top: 0px;
+            &.right {
+                right: 5px;
+            }
+            &.left {
+                left: 5px;
+            }
+        }
+    }
+}

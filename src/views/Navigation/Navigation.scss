@@ -1,0 +1,12 @@
+.navbar {
+    padding-top: 3px;
+    .nav {
+        li {
+            a {
+                &.active {
+                    background: lightgrey;
+                }
+            }
+        }
+    }
+}
