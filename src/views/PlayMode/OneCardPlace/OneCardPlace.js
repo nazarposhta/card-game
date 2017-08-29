@@ -9,7 +9,7 @@ class OneCardPlace extends React.Component {
                 {
                     this.props.data ?
                         <OneSingleCard
-                            owner={"user"}
+                            owner={this.props.data.owner}
                             top_val={this.props.data.top_val}
                             right_val={this.props.data.right_val}
                             bottom_val={this.props.data.bottom_val}
