@@ -120,7 +120,7 @@ class PlayMode extends React.Component {
                     var stateOfGrid = this.state.gridData;
                     var cpuScore = 0;
                     for (var obj in stateOfGrid) {
-                        (stateOfGrid[obj].owner === 'computer') ? cpuScore+=cpuScore : cpuScore=cpuScore;
+                        (stateOfGrid[obj].owner === 'computer') ? cpuScore++ : cpuScore=cpuScore;
                     }
                     if(cpuScore > 4){
                         alert('You lose!');
